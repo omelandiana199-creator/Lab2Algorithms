@@ -39,8 +39,8 @@ public class Algorithms {
         System.out.println("\n ЧАСТИНА 2: Хешування");
         String Word = "кіт";
         String Word2 = "струм";
-        int hash = calculateHash(Word, 997);
-        int hash2 = calculateHash(Word2, 997);
+        int hash = calculateHash(Word, 5);
+        int hash2 = calculateHash(Word2, 5);
         System.out.println("Хеш для слова '" + Word + "': " + hash);
         System.out.println("Хеш для слова ' " + Word2 + "': " + hash2);
     }
